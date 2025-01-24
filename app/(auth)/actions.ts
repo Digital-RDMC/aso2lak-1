@@ -62,6 +62,7 @@ export const register = async (
     });
 
     const [user] = await getUser(validatedData.email);
+  
 
     if (user) {
       return { status: 'user_exists' } as RegisterActionState;
