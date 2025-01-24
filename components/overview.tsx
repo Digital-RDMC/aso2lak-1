@@ -23,7 +23,7 @@ export const Overview = () => {
           This is an{' '}
           <Link
             className="font-medium underline underline-offset-4"
-            href="https://github.com/vercel/ai-chatbot"
+            href="https://github.com/vercel/innovo-sprint-source"
             target="_blank"
           >
             open source
